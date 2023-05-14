@@ -1,0 +1,483 @@
+* 
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.head
+{
+    width: 100%;
+    height: 12vh;
+   background-color:rgb(204, 218, 78);; 
+  
+    border-bottom: 1px solid ;
+    border-color:  rgb(138, 132, 132) ;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    align-items: center;
+ position: sticky;
+ left: 0;
+ top: 0;
+ z-index: 999;   
+}
+.headgauche
+{
+  width: 30%;
+  margin-left: 50px;
+}
+.headcenter
+{
+
+  width:  50%;
+  height: 100%;
+  margin-top: 20px;
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.headdroit
+{
+  width: 10%;
+}
+.material-symbols-outlined
+{
+    width:  10%;
+    height:  50%;
+    color: rgb(14, 100, 64);;
+    cursor :pointer;
+    margin-left: 100px;
+  
+} 
+
+.headgauche img
+{
+  width: 120px;
+  height: 60px;
+  border-radius: 2cap;
+ cursor: pointer;
+}
+.headcenter button 
+{
+ 
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(237, 247, 237);
+    border-radius: 10px;
+    border: 0cap;
+   border-color:rgb(14, 100, 64) ;
+     padding-top: 10PX  ;
+    padding-right: 15PX;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-top:  10px ;
+    margin-bottom: 10px;
+  cursor: pointer;
+  font-size: large;
+}
+.headcenter button:hover
+{ 
+  background-color: rgb(14, 100, 64);
+  border-radius: 10px;
+ color: white;  
+}
+
+.bas1
+{
+  width:100% ;
+  background-color: rgb(241, 235, 241);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bas2
+{
+ 
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-color: rgb(204, 199, 199);
+
+ 
+  background-color: aliceblue;
+  
+  
+}
+.basaccueil img
+{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.bashead
+{
+  width: 100%;
+  height: 20%;
+  background-color: rgb(59, 185, 133) ;
+  margin-bottom: 50px;
+  margin-top:50px ;
+
+ 
+
+
+
+}
+.bashead h1 
+{
+  border-bottom: 1px solid ;
+  border-color:  rgb(191, 228, 92) ;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(17, 17, 17) ;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.secour
+{
+  width: 100%;
+  height: 80%;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+
+}
+.logo 
+{
+  
+ width: 30%;
+ height: 100%;
+
+  
+}
+.logo img /*logo de l'algerie dans la page de presentation*/
+{
+  width: 100%;
+  height: 100%;
+}
+.dztowerlogo  
+{
+
+  width: 80%;
+ height: 90%;
+ margin-left: 30px;
+}
+.dztowerlogo p /*la citation de tahar djaout*/
+{
+  margin-left: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(32, 31, 31) ;
+}
+.dztowerlogo img  /*logo dz tower dans la page de presentation*/
+{
+  width: 50%;
+ height: 50%;
+ padding-left: 170px;
+}
+
+.basbody
+{
+  width: 95%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 150px;
+  
+ 
+}
+.basdz /*presentation de lalgerie*/
+{
+  width: 60%;
+  background-color:rgb(255, 255, 157);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color:  rgb(138, 132, 132) ;
+  padding: 20px;
+  margin-right: 5px;
+}
+.baspresentation /*presentation du site*/
+{
+  width: 35%;
+ background-color: rgb(165, 255, 172);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color:  rgb(138, 132, 132) ;
+  padding: 20px; 
+}.baspresentation p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(32, 31, 31) ;
+}.basbody h2
+{
+  border-bottom: 2px solid ;
+  border-color:  rgb(14, 100, 64);
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(17, 17, 17) ;
+  margin-left: 10PX;
+  padding-top: 5px;
+}
+.basdz p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(32, 31, 31) ;
+}
+.basphotos1
+{
+width: 100%;
+background-color: rgb(241, 235, 241);
+display: flex;
+justify-content: center;
+
+}
+
+.basphotos2 /*la div contenant lesphotos*/
+{
+  width: 80%;
+  Background-color: rgb(255, 255, 255);
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-color: rgb(204, 199, 199);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.5s;
+}
+.basphotos2 .vert:hover
+{
+transform: scale(1.1);
+}
+.basphotos2 .tradivert:hover
+{
+transform: scale(1.1);
+}
+.basphotos2 .tradijaune:hover
+{
+transform: scale(1.1);
+}
+.basphotos2 .jaune:hover
+{
+transform: scale(1.1);
+}
+.basphotos2 p
+{
+color: black;
+padding: 6px;
+}S
+.photos 
+{
+  width: 40%;
+  height: 300px;
+  background-color: aqua;
+  margin-top: 50px;
+}
+
+.changepage
+{
+  height: 100px;
+  width: 30% ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.changepage button
+{
+  width: 80px;
+  height: 40px;
+  font-size: large;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(14, 100, 64);;
+  border: 0cap;
+  border-radius: 1cap;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.jaune /*lebox contenant les photos jaunes*/
+{
+  width: 40%;
+  height: 55vh;
+  background-color: rgb(205, 226, 85);
+  margin-top: 50px;
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+.jaune img
+{
+  width: 100%;
+  height: 60%;
+}
+.vert  /*lebox contenant les photos verts*/
+{
+  width: 40%;
+  height: 55vh;
+  background-color: rgb(59, 185, 133) ;
+  margin-top: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.vert img
+{
+  width: 100%;
+  height: 60%;
+}
+.vert h2
+{
+color: black;
+border-bottom: 3px solid;
+border-color:rgb(185, 185, 28); 
+padding-left: 110px;
+
+}
+.jaune h2
+{
+color: black;
+border-bottom: 3px solid;
+border-color:rgb(35, 168, 113);
+padding-left: 110px;
+
+}
+.tradivert
+{
+  width: 40%;
+  height: 69vh;
+  background-color: rgb(59, 185, 133) ;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.tradivert
+¨{
+  scale: ;
+}
+.tradivert h2
+{
+  color: black;
+border-bottom: 3px solid;
+border-color:  rgb(205, 226, 85);;
+padding-left: 110px;
+
+}
+.tradivert img
+{
+  width: 100%;
+  height: 70%;
+}
+.tradijaune
+{
+  width: 40%;
+  height: 69vh;
+  background-color: rgb(205, 226, 85);
+  margin-top: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.tradijaune h2
+{
+  color: black;
+border-bottom: 3px solid;
+border-color:rgb(35, 168, 113);
+padding-left: 110px;
+
+}
+.tradijaune img
+{
+  width: 100%;
+  height: 70%;
+}
+.titre
+{
+  width: 80%;
+  height: 13vh;
+  margin-top: 10px;
+  background-color: rgb(35, 168, 113);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+.titre h2
+{
+  color: rgb(255, 255, 255);
+border-bottom: 3px solid;
+border-color:rgb(185, 185, 28); 
+font-family: 'Courier New', Courier, monospace;
+font-size: xx-large;
+}
+.transport
+{
+  width: 90%;
+  height: 60vh;
+  margin-top: 100px; 
+  background-color: rgb(59, 185, 133) ;
+  border-radius: 5px;
+}
+.transport h2
+{
+  color: black;
+border-bottom: 3px solid;
+border-color:rgb(185, 185, 28); 
+font-family: 'Courier New', Courier, monospace;
+font-size: xx-large;
+}
+.transport p
+{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(32, 31, 31) ;
+}
+.restau
+{
+  width: 90%;
+  height: 120vh;
+  margin-top: 100px;   
+  background-color: rgb(59, 185, 133) ;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+.restau h2
+{
+  color: black;
+border-bottom: 3px solid;
+border-color:rgb(185, 185, 28); 
+font-family: 'Courier New', Courier, monospace;
+font-size: xx-large;
+}
+.restau p
+{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(32, 31, 31) ;
+}
+
+
+
+
+
+
+
+
+
